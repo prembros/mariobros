@@ -3,7 +3,7 @@ package com.prembros.mariobros.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.prembros.mariobros.MainGame;
+import com.prembros.mariobros.MarioBros;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new MainGame();
+                return new MarioBros();
         }
 }
